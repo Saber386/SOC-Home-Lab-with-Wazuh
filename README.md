@@ -118,6 +118,7 @@ The learning resources used throughout this project include official documentati
 
 ## Repo fileflow
 
+```text
 SOC-Home-Lab/
 │
 ├── README.md
@@ -200,6 +201,8 @@ SOC-Home-Lab/
     ├── References.md
     ├── Useful_Links.md
     └── Learning_Roadmap.md
+
+```
 
 ## License
 
