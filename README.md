@@ -125,6 +125,79 @@ The following resources will be used throughout this project:
 
 ---
 
+Repo File Structure 
+
+```text
+
+SIEM-Lab-Wazuh/
+│
+├── README.md
+├── LICENSE
+│
+├── 01_Introduction/
+│   ├── SIEM_Overview.md
+│   ├── SIEM_Architecture.md
+│   └── SIEM_Workflow.md
+│
+├── 02_Lab_Setup/
+│   ├── Lab_Architecture.md
+│   ├── VirtualBox_Setup.md
+│   ├── Ubuntu_Server.md
+│   ├── Windows_VM.md
+│   ├── Kali_Linux.md
+│   └── Network_Configuration.md
+│
+├── 03_Wazuh/
+│   ├── Installation.md
+│   ├── Wazuh_Manager.md
+│   ├── Agent_Installation.md
+│   ├── Dashboard.md
+│   ├── Rules.md
+│   └── Troubleshooting.md
+│
+├── 04_Log_Collection/
+│   ├── Windows_Event_Logs.md
+│   ├── Linux_System_Logs.md
+│   ├── Sysmon_Logs.md
+│   └── Log_Sources.md
+│
+├── 05_Event_Correlation/
+│   ├── Correlation_Rules.md
+│   ├── Alert_Generation.md
+│   └── Rule_Testing.md
+│
+├── 06_Alert_Analysis/
+│   ├── Alert_Levels.md
+│   ├── Alert_Investigation.md
+│   ├── False_Positives.md
+│   └── Incident_Notes.md
+│
+├── 07_Sysmon/
+│   ├── Installation.md
+│   ├── Configuration.md
+│   ├── Event_ID_Reference.md
+│   └── Sysmon_vs_Windows_Logs.md
+│
+├── 08_CheatSheets/
+│   ├── Wazuh_Commands.md
+│   ├── Sysmon_Event_IDs.md
+│   ├── Windows_Event_IDs.md
+│   └── Linux_Log_Locations.md
+│
+├── Screenshots/
+│   ├── Installation/
+│   ├── Dashboard/
+│   ├── Alerts/
+│   ├── Rules/
+│   └── Agents/
+│
+└── Resources/
+    ├── References.md
+    ├── Useful_Links.md
+    └── Learning_Roadmap.md
+
+```
+
 # License
 
 This project is licensed under the MIT License.
